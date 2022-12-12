@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: 'Rammetto One', sans-serif;
+    text-decoration: none;
+}
+
+blockquote {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    color: #faf3f3;
+    padding-top: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: #333333;
+    color: #f2e6e6;
+    padding: 15px 0px;
+    font-size: .7em;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: 'Rammetto One', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #000000;
+    font-family: 'Rammetto One', sans-serif;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #000000;
+    padding-bottom: 10px;
+    font-family: 'Rammetto One', sans-serif;
+}
+
+h5 {
+    font-size: 0.8rem;
+    font-family: 'Rammetto One', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h5 a {
+    color: rgb(176, 138, 154);
+    text-decoration: none;
+}
+
+h5 a:hover {
+    color: rgb(217, 212, 206)
+}
+
+header {
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+header a:hover {
+    color: #f8dff0;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.Page__Banner {
+    padding: 10px 20px;
+    background-color: rgb(217, 212, 206);
+    background-image: url('assets/banner.jpeg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page__Block {
+    padding: 40px 20px;
+}
+
+.Page__Block--cream {
+    background-color: #f2e6e6;
+}
+
+.Page__Item {
+    margin-bottom: 40px;
+}
+
+.Page__Quote {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(204, 180, 190);
+    padding: 30px 0px;
+}
+
+.Social__Media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Newsletter {
+    background-color: #eda2a2;
+    padding: 20px 0px;
+}
+
+.Newsletter__Button {
+    background-color: #c36868;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.Newsletter__Button:hover {
+    background-color: #9b4343;
+}
+
+.Newsletter__Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video__Wrapper {
+    display: flex;
+    justify-content: center;
+}
