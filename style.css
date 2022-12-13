@@ -29,7 +29,7 @@ footer {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: #ffffff;
     font-family: 'Rammetto One', sans-serif;
     display: flex;
@@ -163,4 +163,10 @@ p {
 .Video__Wrapper {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
 }
